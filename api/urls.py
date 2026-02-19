@@ -6,6 +6,8 @@ from rest_framework_simplejwt.views import (
     TokenRefreshView,
 )
 
+#something new
+
 router = DefaultRouter()
 router.register(r"todos", TodoViewSet, basename="todo")
 
